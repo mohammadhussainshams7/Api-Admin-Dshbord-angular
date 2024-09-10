@@ -1,0 +1,46 @@
+<div class="show">
+   
+<app-navbartop></app-navbartop>
+<div class="row">
+
+ <div *ngIf="getWidthScreen<576 then screenMobile else screenTablet">
+
+ </div>
+
+ <!-- if screen < 576px -->
+  <ng-template #screenTablet>
+    <header className=" {{tooglebtn?'col-md-2 ': 'd-none'}} col-sm-3 bggray">
+      <nav>
+          <app-navbar-admin></app-navbar-admin> 
+      </nav> 
+    </header>
+  </ng-template>
+
+ <!-- if screen > 576px -->
+
+  <ng-template #screenMobile>
+    <header>
+      <app-modal-navbar></app-modal-navbar>
+    </header>
+  </ng-template>
+
+
+
+  <main class="{{tooglebtn?'col-md-10': 'col-md-12'   }}  col-sm-9  main">
+ 
+   <div class="container">
+    <button *ngIf="getWidthScreen>576" class="btn btn-outline-secondary mt-2" (click)="toogleslider()">
+      <i class="mobile-nav-toggle bi bi-list"></i>
+    </button>
+    <!-- Button trigger modal -->
+<button *ngIf="getWidthScreen<576" type="button" class="btn btn-outline-secondary mt-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  <i class="mobile-nav-toggle bi bi-list"></i>
+</button>
+    <router-outlet></router-outlet>
+ 
+   </div>
+  </main>
+
+</div>
+
+</div>

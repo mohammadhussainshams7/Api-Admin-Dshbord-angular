@@ -1,0 +1,11 @@
+.show .row>* {
+    padding: 0;
+   margin: 0;
+}   
+.show .bggray{
+    background-color: #31363F;
+ }
+ .show .main{
+    background-color: #EEEEEE;
+    min-height: 100vh;
+ } 

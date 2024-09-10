@@ -1,0 +1,5 @@
+.tablePrivate{
+    --bs-table-bg: rgba(0, 128, 0, 0);
+    --bs-table-active-bg:#aaa;
+    --bs-table-color:#222831 !important;
+ }

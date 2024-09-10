@@ -1,0 +1,160 @@
+{
+  "blogs": [
+    {
+      "postCategory": "Entertainment",
+      "postPic": "https://as2.ftcdn.net/v2/jpg/02/16/46/81/1000_F_216468131_xa78oKcQsamgGnuQxpYcMJjVxeB3UM1H.jpg",
+      "title": "Distinctio provident quibusdam numquam aperiam aut",
+      "userPic": "https://media.istockphoto.com/id/1308591664/photo/a-young-college-girl-is-wondering-what-to-write-back-to-an-email-she-received-the-girl-is.jpg?s=1024x1024&w=is&k=20&c=wITi3GHrtrRt95NVX4dqQdRffER4GvoQzYFeA65vEww=",
+      "UserName": "Mika Lendon",
+      "date": "2024-03-14",
+      "id": "6"
+    },
+    {
+      "id": "3",
+      "postCategory": "Entertainment",
+      "postPic": "https://efnwh5d9usj.exactdn.com/wp-content/uploads/2022/11/Learning-how-to-use-Python-without-any-programming-background.jpg?strip=all&lossy=1&ssl=1",
+      "title": "Possimus soluta ut id suscipit ea ut in quo quia et soluta",
+      "userPic": "https://media.istockphoto.com/id/520659918/photo/illustrator-working-late.jpg?s=1024x1024&w=is&k=20&c=Uc9z897IreOnqaes9mfLTt2ZiG0a6OOmzVMhRjkhoBc=",
+      "UserName": "Mark Dower sooner",
+      "date": "2024-03-06"
+    },
+    {
+      "id": "9",
+      "date": "2024-03-05",
+      "postCategory": "Sports",
+      "postPic": "http://fitcommunications.ca/wp-content/uploads/2015/07/FC_StrongWoman.jpg",
+      "userPic": "https://contents.mediadecathlon.com/p2634453/k$2ff14c76ff6a244af272f91ba645966a/-.jpg?format=auto&quality=40&f=800x800",
+      "UserName": "anna",
+      "title": "Youth soccer Indiana"
+    },
+    {
+      "id": "5",
+      "postCategory": "Sports",
+      "postPic": "https://as2.ftcdn.net/v2/jpg/01/45/43/99/1000_F_145439903_FLOnaKE0v1N87sFuicYEXYstlfZDiyzn.jpg",
+      "title": "Accusamus quaerat aliquam qui debitis facilis consequatur",
+      "userPic": "https://media.istockphoto.com/id/1159341258/photo/portrait-of-skilled-female-student-sitting-in-cafeteria-with-modern-computer-on-table.jpg?s=1024x1024&w=is&k=20&c=8JH3Hsx38pZqPzP5bpfKW6lhk1vc5WgH_Efowx4XiX8=",
+      "UserName": "Denis Peterson",
+      "date": "Jan 30, 2022"
+    }
+  ],
+  "Portfolio": [
+    {
+      "id": "1",
+      "urlImage": "assets/img/masonry-portfolio/masonry-portfolio-1.jpg",
+      "category": "app 1",
+      "description": "Lorem ipsum, dolor sit"
+    },
+    {
+      "id": "2",
+      "urlImage": "assets/img/masonry-portfolio/masonry-portfolio-2.jpg",
+      "category": "Product 1",
+      "description": "Lorem ipsum, dolor sit"
+    },
+    {
+      "id": "3",
+      "urlImage": "assets/img/masonry-portfolio/masonry-portfolio-3.jpg",
+      "category": "Branding 1",
+      "description": "Lorem ipsum, dolor sit"
+    },
+    {
+      "id": "4",
+      "urlImage": "assets/img/masonry-portfolio/masonry-portfolio-6.jpg",
+      "category": "Branding 2",
+      "description": "Lorem ipsum, dolor sit"
+    },
+    {
+      "id": "5",
+      "urlImage": "assets/img/masonry-portfolio/masonry-portfolio-4.jpg",
+      "category": "App 2",
+      "description": "Lorem ipsum, dolor sit"
+    },
+    {
+      "id": "6",
+      "urlImage": "assets/img/masonry-portfolio/masonry-portfolio-5.jpg",
+      "category": "Product 2",
+      "description": "Lorem ipsum, dolor sit"
+    },
+    {
+      "id": "7",
+      "urlImage": "assets/img/masonry-portfolio/masonry-portfolio-7.jpg",
+      "category": "App 3",
+      "description": "Lorem ipsum, dolor sit"
+    },
+    {
+      "id": "8",
+      "urlImage": "assets/img/masonry-portfolio/masonry-portfolio-8.jpg",
+      "category": "Product 3",
+      "description": "Lorem ipsum, dolor sit"
+    },
+    {
+      "id": "9",
+      "picImage": "assets/img/masonry-portfolio/masonry-portfolio-9.jpg",
+      "category": "Branding 3",
+      "description": "Lorem ipsum, dolor sit"
+    },
+    {
+      "id": "ae46",
+      "urlImage": "https://m.media-amazon.com/images/I/51ZOXEgJAmL.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "category": "computer",
+      "description": "Dell HP 15-GW Laptop - Ryzen 3 3250U 2-Cores, 8 GB RAM, 1 TB HDD, AMD Radeon Graphics, 15.6\" HD (1366 x 768) micro-edge anti-glare 220 nits, Dos - Black"
+    }
+  ],
+  "service": [
+    {
+      "id": "1",
+      "title": "Lorem Ipsum",
+      "description": "Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident",
+      "icon": "bi bi-briefcase"
+    },
+    {
+      "id": "31",
+      "icon": "bi bi-card-checklist",
+      "title": "Dolor Sitema",
+      "description": "Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata"
+    },
+    {
+      "id": "1486",
+      "icon": "bi bi-bar-chart",
+      "title": "Sed ut perspiciatis",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+    },
+    {
+      "id": "622",
+      "icon": "bi bi-binoculars",
+      "title": "Magni Dolores",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+    },
+    {
+      "id": "1980",
+      "icon": "bi bi-brightness-high",
+      "title": "Nemo Enim",
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque"
+    },
+    {
+      "id": "1063",
+      "icon": "bi bi-calendar4-week",
+      "title": "Eiusmod Tempor",
+      "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi"
+    }
+  ],
+  "login": [
+    {
+      "id": "1",
+      "email": "mohamedslah@gmail.com",
+      "pass": "123",
+      "pic": "https://i2-prod.liverpoolecho.co.uk/incoming/article28637840.ece/ALTERNATES/s615/0_GettyImages-1859259503.jpg"
+    },
+    {
+      "id": "2",
+      "email": "yossef@gmail.com",
+      "pass": "456",
+      "pic": "https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-6/424620768_122102785226214524_6616406504821092462_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wqe9_JEumisAX-_KU56&_nc_oc=AdgNnSwu8KFg5jQlmZtqNPkBgBVTTEamyaLiFzcIxOPaOzZbDdtU2LMkEvo08sw1oe0&_nc_ht=scontent.fcai19-4.fna&cb_e2o_trans=t&oh=00_AfCIdg2RfklpG6Pktd9AOZVTdc0FUBLX1hwZkS2NWom8jg&oe=660D9658"
+    },
+    {
+      "id": "3",
+      "email": "mohamed@gmail.com",
+      "pass": "789",
+      "pic": "https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-1/346057464_645238014136239_6672133809467694393_n.jpg?stp=c0.0.160.160a_dst-jpg_p160x160&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wlj1Db-GJkIAX9o3h8E&_nc_ht=scontent.fcai19-4.fna&cb_e2o_trans=t&oh=00_AfDgzipRFdS5pjpPLe0V260MX5jdU1Ty09C4bFOt3YDJcg&oe=660DE734"
+    }
+  ]
+}

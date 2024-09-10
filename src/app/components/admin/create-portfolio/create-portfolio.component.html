@@ -1,0 +1,32 @@
+
+  <div class="container p-5">
+    <h3 class="text-center py-3 ">Create Portfolio</h3>
+
+    <form action="\" method="get" #gfgform = "ngForm">
+      
+      <div class="mb-3 row">
+        <label for="urlImage" class="col-sm-2 col-form-label">Url Image</label>
+        <div class="col-sm-10">
+          <input name="urlImage" required [(ngModel)]="Portfolio.urlImage" type="url" class="form-control" id="urlImage">
+        </div>
+      </div>
+    
+      <div class="mb-3 row">
+        <label for="category" class="col-sm-2 col-form-label">Category</label>
+        <div class="col-sm-10">
+          <input name="category" required [(ngModel)]="Portfolio.category" type="text" class="form-control" id="category">
+        </div>
+      </div>
+    
+      <div class="mb-3 row">
+        <label for="description" class="col-sm-2 col-form-label">Description</label>
+        <div class="col-sm-10">
+          <input name="description" required [(ngModel)]="Portfolio.description" type="url" class="form-control" id="description">
+        </div>
+      </div>
+    
+     
+        <input  class="btn btn-primary mb-5" (click)="saveData()" type="button" value="Save">
+
+    </form>
+</div>

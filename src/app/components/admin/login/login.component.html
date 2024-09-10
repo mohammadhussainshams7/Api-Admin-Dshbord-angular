@@ -1,0 +1,69 @@
+<section style="background-color: #eee;">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-xl-10">
+                <div class="card rounded-3 text-black">
+                    <div class="row g-0">
+                        <div class="col-6">
+                            <div class="card-body p-md-5 mx-md-4">
+
+                                <div class="text-center">
+                                    <img
+                                        src="https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-6/424620768_122102785226214524_6616406504821092462_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wqe9_JEumisAX-_KU56&_nc_oc=AdgNnSwu8KFg5jQlmZtqNPkBgBVTTEamyaLiFzcIxOPaOzZbDdtU2LMkEvo08sw1oe0&_nc_ht=scontent.fcai19-4.fna&cb_e2o_trans=t&oh=00_AfCIdg2RfklpG6Pktd9AOZVTdc0FUBLX1hwZkS2NWom8jg&oe=660D9658"
+                                        style="width: 185px;"
+                                        class="rounded-circle" alt="logo">
+                                    <h2 class="py-5 mb-5 pb-1">Login</h2>
+                                </div>
+
+                                <form #gfgform="ngForm">
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label"
+                                            for="myEmail">Username</label>
+                                        <input type="email" name="myEmail"
+                                            id="myEmail" class="form-control"
+                                            placeholder="Phone number or email address"
+                                            [(ngModel)]="_login.email" />
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <label class="form-label"
+                                            for="pass">Password</label>
+                                        <input type="password" name="pass"
+                                            id="pass" [(ngModel)]="_login.pass"
+                                            class="form-control" />
+                                    </div>
+
+
+                                    <div *ngIf="massage" class="alert alert-danger" role="alert">
+                                        {{massage}}
+                                      </div>
+                                    <div class="text-center pt-1 mb-5 pb-1">
+                                        <button
+                                            class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3"
+                                            type="button" (click)="login()">Log
+                                            in</button>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex gradient-custom-2">
+                            <div class="text-white">
+                                <!-- <h4 class="mb-4">We are more than just a company</h4>
+                  <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+ -->
+                                <img class="img-fluid h-100"
+                                    src="https://img.freepik.com/free-photo/3d-internet-secuirty-badge_1048-18106.jpg?t=st=1711794421~exp=1711798021~hmac=4537a312c272c46145713addb59dc88bca4cf9575b20e3dd0a39e0082ddaaced&w=740" />
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

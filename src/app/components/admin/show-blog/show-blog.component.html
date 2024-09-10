@@ -1,0 +1,38 @@
+
+  <h3 class="text-center py-3 ">Show Blogs</h3>
+<div class="table-responsive">
+  <table class="table table-hover    table-sm   tablePrivate">
+    <thead class="table-dark">  
+      <tr class="text-center">
+        <th scope="col">id</th>
+        <th scope="col">post Category</th>
+    <!--     <th scope="col">post Pic</th> -->
+        <th scope="col">title</th>
+ <!--        <th scope="col">user Pic</th>  -->
+        <th scope="col">UserName</th> 
+    <!--     <th scope="col">date</th>  -->
+    <th colspan="4">Actions</th> 
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of allData">
+        <td>{{item.id}}</td>
+        <td>{{item.postCategory}}</td>
+     <!--    <td>{{item.postPic}}</td> -->
+        <td>{{item.title}}</td>
+    <!--     <td>{{item.userPic}}</td> -->
+        <td>{{item.UserName}}</td>
+      <!--   <td>{{item.date}}</td> -->
+      <td><a class="btn btn-primary"
+        routerLink="/admin/update-blog/{{item.id}}">Edit</a></td>
+<td><a class="btn btn-info"
+        routerLink="/admin/show-one-blog/{{item.id}}">Show</a></td>
+<td><a class="btn btn-danger"
+        (click)="removeItem(item.id)">Delete</a></td>
+
+
+      </tr>
+     
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,81 @@
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen-sm-down">
+        <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Navbar Menu</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Start Body -->
+          <!-- start Nav -->
+<div class="container sidebarleft">
+    <div class="nav ">
+  
+      <a href="{{picUrl}}" target="_blank" class="mt-5" title="profile Image" >
+        <img
+        [src]="picUrl"
+        class="rounded-circle" alt="logo">
+      </a>
+  
+  </div>
+  <ul class="nav nav-pills flex-column">
+    <li class="nav-item">
+      <button
+        class="nav-link"
+        routerLink="create-blog"
+        routerLinkActive="active"> create blog</button>
+    </li>
+  
+    <li class="nav-item">
+      <button
+        class="nav-link "
+        routerLink="show-blog"
+        routerLinkActive="active">  Show Blogs</button>
+    </li>
+  
+   
+    <li class="nav-item">
+      <button
+        class="nav-link "
+        routerLink="create-portfolio"
+        routerLinkActive="active">  create portfolio</button>
+    </li>
+  
+    <li class="nav-item">
+      <button
+        class="nav-link "
+        routerLink="show-portfolio"
+        routerLinkActive="active">  show portfolio</button>
+    </li>
+  
+    <li class="nav-item">
+      <button
+        class="nav-link "
+        routerLink="create-service"
+        routerLinkActive="active"> create service</button>
+    </li>
+     
+    <li class="nav-item">
+      <button
+        class="nav-link "
+        routerLink="show-service"
+        routerLinkActive="active">  show service</button>
+    </li>
+   
+    <li class="nav-item">
+    </li>
+    <!-- End Nav -->
+  
+  </ul>
+   
+  </div>
+          <!-- end Body -->
+        </div>
+      </div>
+    </div>
+  </div>
+  

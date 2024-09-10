@@ -1,0 +1,15 @@
+ .bg-darkMode{
+    background-color: #31363F;
+ }
+ .bg-darkMode .navbar-brand{
+    color: aliceblue;
+    font-weight: bold;
+ }
+ .bg-darkMode .search{
+    margin: 0 20px !important;
+}
+
+.bg-darkMode .form-control[text]{
+    background-color:#31363F !important ;
+
+}
