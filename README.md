@@ -28,17 +28,18 @@ A powerful admin dashboard built with Angular for managing and visualizing API d
 1. Clone the repository:
    ```bash
    git clone https://github.com/mohammadhussainshams7/Api-Admin-Dshbord-angular.git
+   
 2. Navigate into the project directory:
    ```bash
    cd Api-Admin-Dshbord-angular
 3. Install the dependencies:
    ```bash
-npm install
+   npm install
+
 4. Start the development server:
    ```bash
    ng serve
+
 5. Open your browser and navigate to:
    ```bash
    http://localhost:4200
-
-
