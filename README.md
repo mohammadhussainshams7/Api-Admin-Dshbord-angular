@@ -22,9 +22,6 @@ A powerful admin dashboard built with Angular for managing and visualizing API d
 - API management and monitoring tools
 - Customizable dashboard components
 
-## Demo
-
-Check out the live demo [here](your-demo-link).
 
 ## Installation
 
