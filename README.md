@@ -1,28 +1,33 @@
-# Append
+# API Admin Dashboard (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
+A powerful admin dashboard built with Angular for managing and visualizing API data. This project provides an intuitive interface to interact with your APIs, making it easy to monitor and control your application's backend.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Responsive design for mobile and desktop
+- User-friendly interface
+- Role-based access control
+- Real-time data visualization
+- API management and monitoring tools
+- Customizable dashboard components
 
-## Build
+## Demo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Check out the live demo [here](your-demo-link).
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-"# Api-Admin-Dshbord-angular" 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mohammadhussainshams7/Api-Admin-Dshbord-angular.git
